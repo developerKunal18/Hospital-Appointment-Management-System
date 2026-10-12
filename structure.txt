@@ -1,0 +1,43 @@
+Features
+- Register, search, and update patient records
+- Add and manage doctors
+- Organize doctors by specialization
+- Book appointments with date and time
+- Prevent overlapping appointments for the same doctor
+- Track appointment statuses
+- Cancel appointments
+- Record payments and generate receipt IDs
+- View patient appointment history
+- Generate daily appointment reports
+- Generate revenue reports
+- Store data in JSON files
+
+Tech stack
+- Python
+- JSON
+- Datetime
+- UUID
+- OS
+
+Folder structure
+Create the following structure in VS Code.
+hospital-appointment-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── patient_manager.py
+├── doctor_manager.py
+├── appointment_manager.py
+├── payment_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── patients.json
+│   ├── doctors.json
+│   ├── appointments.json
+│   └── payments.json
+│
+├── .gitignore
+└── README.md
